@@ -13,7 +13,7 @@ The following Jupyter notebooks are included in this repository:
 1. **00-scraping-rappler-articles.ipynb**
    - This notebook is responsible for scraping the data required by subsequent notebooks. The dataset is too large to store in Git, so it should be run first to gather the necessary data.
 
-2. **01-cleaning-data.ipynb**
+2. **01-ner-and-sentiment-tagging.ipynb**
    - This notebook implements Named Entity Recognition (NER) and cleans the NER results, addressing issues such as Tagalog words incorrectly identified as persons. Clean data is essential for accurate analysis.
 
 3. **02-dynamic-bar-charts.ipynb**
