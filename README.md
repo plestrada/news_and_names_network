@@ -1,4 +1,4 @@
-# Wrappler Wrapped: Temporal Variation in Network Metrics of Articles and Entities
+# Rappler Wrapped: Temporal Variation in Network Metrics of Articles and Entities
 
 ![Header](images/header.png)
 
@@ -13,19 +13,16 @@ The following Jupyter notebooks are included in this repository:
 1. **00-scraping-rappler-articles.ipynb**
    - This notebook is responsible for scraping the data required by subsequent notebooks. The dataset is too large to store in Git, so it should be run first to gather the necessary data.
 
-2. **01-ns-proj-ner.ipynb**
-   - This notebook implements Named Entity Recognition (NER) to generate entities for each article. These entities are crucial for the network analysis.
+2. **01-cleaning-data.ipynb**
+   - This notebook implements Named Entity Recognition (NER) and cleans the NER results, addressing issues such as Tagalog words incorrectly identified as persons. Clean data is essential for accurate analysis.
 
-3. **02-cleaning-data.ipynb**
-   - This notebook focuses on cleaning the NER results, addressing issues such as Tagalog words incorrectly identified as persons. Clean data is essential for accurate analysis.
-
-4. **03-dynamic-bar-charts.ipynb**
+3. **02-dynamic-bar-charts.ipynb**
    - Here, you will find code to create dynamic bar charts representing topic trends as GIFs. These visualizations can provide valuable insights into temporal variations.
 
-5. **04-dynamic-articles-network.ipynb**
+4. **03-dynamic-articles-network.ipynb**
    - This notebook utilizes topic modeling to label articles to specific topics, facilitating further network analyses. It is a crucial step in understanding the network dynamics.
 
-6. **05-dynamic-entities_network.ipynb**
+5. **04-dynamic-entities_network.ipynb**
    - In this notebook, you can perform analyses on entities, including centrality measurements, and generate a temporal GIF illustrating the evolution of central nodes over time.
 
 ## Getting Started
