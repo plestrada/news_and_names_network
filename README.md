@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains data, images, and Jupyter notebooks related to the paper "Wrappler Wrapped: Temporal Variation in Network Metrics of Articles and Entities." The contents of this repository are organized to facilitate analysis in the field of network science.
+This repository contains data, images, and Jupyter notebooks related to the paper "Rappler Wrapped: Temporal Variation in Network Metrics of Articles and Entities." The contents of this repository are organized to facilitate analysis in the field of network science.
 
 ## Notebooks
 
